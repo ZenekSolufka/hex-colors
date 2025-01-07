@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(231, 235, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+
+  text-align: center;
+  padding: 20px;
+  background-color: c;
+
+}
+
+h1, h2 {
+  color: #000;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+.color-display {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem 1rem;
+  -webkit-box-shadow: 0px 0px 46px -26px rgba(0, 0, 0, 1);
+-moz-box-shadow: 0px 0px 46px -26px rgba(0, 0, 0, 1);
+box-shadow: 0px 0px 46px -26px rgba(0, 0, 0, 1);
+}
+
+.color-preview {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form p {
+  color: black;
+  font-size: 12px;
+  text-align: left;
+}
+
+.btn {
+  background-color: rgb(32,94,211);
+  color: white;
+  border: 1px solid black;
+  width: 100%;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  width: 100%;
+  gap: 10px;
+}
+
+.color {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: rgb(231, 235, 243);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem;
+}
+
+.color-type {
+  width: 70px;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(207, 207, 207);
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.history {
+  max-width: 250px;
+  max-height: 550px; /* Ogranicz wysokość do 300px */
+  overflow-y: auto; /* Włącz przewijanie w pionie */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.87);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.history ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.history li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.history li:last-child {
+  margin-bottom: 0;
+}
+
+.history-color-name {
+  text-align: right;
+}
