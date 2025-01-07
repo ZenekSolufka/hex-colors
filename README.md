@@ -1,5 +1,5 @@
 # React + Vite
-
+LINK do strony: https://zeneksolufka.github.io/hex-colors/
 Dokumentacja projektu What The Hex
 1. Opis projektu
 What The Hex to aplikacja internetowa zbudowana w oparciu o framework React. Umożliwia użytkownikom:
