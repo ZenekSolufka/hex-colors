@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hex-colors/static/css/main.f3409b1b.css",
+    "main.js": "/hex-colors/static/js/main.dee33517.js",
+    "index.html": "/hex-colors/index.html",
+    "main.f3409b1b.css.map": "/hex-colors/static/css/main.f3409b1b.css.map",
+    "main.dee33517.js.map": "/hex-colors/static/js/main.dee33517.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3409b1b.css",
+    "static/js/main.dee33517.js"
+  ]
+}
